@@ -3,7 +3,7 @@ import TodoInput from './Component/To-do/Input';
 import TodoList from './Component/To-do/TodoList';
 import TapSwap from './Component/To-do/Tapswap';
 import Timer from './Component/To-do/Timer';
-import UsestateObject from './Component/UsestateObject';
+import UsestateObject from './Component/To-do/UsestateObject';
 import UsestateArray from './Component/To-do/UsestateArray';
 
 function App() {
