@@ -3,6 +3,8 @@ import TodoInput from './Component/To-do/Input';
 import TodoList from './Component/To-do/TodoList';
 import TapSwap from './Component/To-do/Tapswap';
 import Timer from './Component/To-do/Timer';
+import UsestateObject from './Component/UsestateObject';
+import UsestateArray from './Component/To-do/UsestateArray';
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -25,6 +27,8 @@ function App() {
       <p>Total Tasks: {tasks.length}</p>
       <TapSwap />
       <Timer />
+      <UsestateObject/>
+      <UsestateArray/>
     </div>
   );
 }
